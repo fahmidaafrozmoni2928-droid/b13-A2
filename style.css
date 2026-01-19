@@ -59,13 +59,14 @@ body{
    transform: translateY(-220px);   
 }
 .btn-3, .btn-4{
-   background-color: brown;
+   background-color: rgb(204, 126, 126);
    display: flex;
-   align-items: center;
+   text-align: center;
    gap: 8px;
    padding:5px 10px;
    border: 1px;
    border-radius: 10px;
+   
 }
 .btn-3 img {
    transform: translateX(-50px);
@@ -89,10 +90,29 @@ body{
 }
 .daily{
    display: flex;
-   justify-items: center;
+   justify-content: center;
+   padding-left:5%;
+   border: 2px;
+   gap: 10px;
 }
-.techwave{
+.TechWave{
+   color: white;
+    border: 1px;
+    text-align: center;
+}
+.podcast{
+   color: white;
+    border: 1px;
    text-align: center;
-   transform: translateX(50PX);
-
+}
+.monthly{
+   display: flex;
+   justify-content: space-around;
+   color: white;
+   padding-left: 150px;
+   padding-right: 150px;
+   
+}
+.monthly h2{
+   color: palegreen;
 }
