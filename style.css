@@ -40,9 +40,59 @@ body{
    justify-content: center;
    justify-items: center;
    align-items: center;
-   padding-left: 37%;
+   padding-left: 41%;
 }
 .microphone{
    padding-left: 15%;
    transform:translateY(-270px) 
+}
+.new{
+   background-color: lightgreen;
+   padding:5px 10px;
+   
+   border: 1px solid blue;
+   border-radius: 10px;
+   position: absolute;
+   top: 50%;
+   left: 59%;
+   
+   transform: translateY(-220px);   
+}
+.btn-3, .btn-4{
+   background-color: brown;
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   padding:5px 10px;
+   border: 1px;
+   border-radius: 10px;
+}
+.btn-3 img {
+   transform: translateX(-50px);
+}
+.btn-3 span {
+   white-space: nowrap;
+   transform: translateX(-50px);
+
+}
+.btn-4 img {
+    transform: translateX(-40px);
+}
+.btn-4 span{
+   transform: translateX(-40px);
+}
+.btn-3{
+   color: white;
+}
+.btn-4{
+   color: lightgreen;
+}
+.daily{
+   display: flex;
+   justify-items: center;
+}
+.techwave{
+   text-align: center;
+   transform: translateX(50PX);
+
 }
