@@ -116,3 +116,35 @@ body{
 .monthly h2{
    color: palegreen;
 }
+.card1,.card2,.card3,.card4,.card5{
+   border: 1px solid red;
+   border-radius: 10px;
+   width: 300px;
+   height: 280px;
+   padding-left: 20px;
+   padding-top: 20px;
+   color: white;
+  
+
+   
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    gap: 10px;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 100px;
+}
+.choose{
+   color: white;
+   text-align: center;
+}
+.logos{
+   background-color: rgba(36,14,61,1);
+   padding-top: 20px;
+   padding-bottom: 30px;
+}
+
+
