@@ -146,5 +146,35 @@ body{
    padding-top: 20px;
    padding-bottom: 30px;
 }
+.video1 , .video2 , .video3{
+   border: 1px;
+   border-radius: 20px;
+   width: 310px;
+   height: 480px;
+   padding-left: 15px;
+   padding-top: 4px;
+   color: white;
+   background-color: rgba(36,14,61,1);
+
+}
+.clock{
+   color: lightgreen;
+   display: flex;
+   gap: 10px;
+
+}
+.episode{
+   color: white;
+   display: flex;
+   justify-content: center;
+}
+.videos{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   padding-left: 200px;
+   padding-right: 100px;
+   
+}
 
 
+ 
