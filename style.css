@@ -47,16 +47,19 @@ hr{
   background-size: cover;
   background-repeat: no-repeat;
 }
-.banner img{
- display: flex;
- justify-content: center;
- justify-items: center;
- align-items: center;
- padding-left: 41%;
+.banner-img{
+ position: relative;
+ width:80px;
+ padding-left: 500px;
+ 
+ 
+
 }
 .microphone{
-   padding-left: 15%;
-   transform: translateY(-270px);
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
 }
 .new{
    background-color: lightgreen;
@@ -66,15 +69,15 @@ hr{
    border-radius: 10px;
    position: absolute;
    top: 67%;
-   left: 61%;
+   left: 57%;
    
-   transform: translateY(-220px);   
+   transform: translateY(-220px);  
 }
 .btn-3, .btn-4{
    background-color: rgb(204, 126, 126);
    display: flex;
    text-align: center;
-   gap: 8px;
+   gap: 12px;
    padding:5px 10px;
    border: 1px;
    border-radius: 10px;
@@ -275,10 +278,12 @@ footer{
       display: block;
       margin-top: 43px;
  }
- .banner img {
-   padding-left: 10%;
-   width: 300px;
-   height:300px; 
+ .banner-img{
+   width: 200px;
+   height: 200px;
+   text-align: center;
+   transform: translateX(-450px);
+   size: 200px;
  }
  .microphone{
   
